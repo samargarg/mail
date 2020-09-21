@@ -1,0 +1,47 @@
+body {
+    textarea {
+        min-height: 400px;
+    }
+    #emails-view {
+        #emails {
+            .email {
+                width: 100%;
+                padding: 10px;
+                margin: 10px;
+                border: 0px;
+                .email-timestamp {
+                    text-align: right;
+                }
+                .email-subject {
+                    text-align: left;
+                }
+                .email-sender {
+                    text-align: left;
+                }
+            }
+        }
+    }
+    #open-email-view {
+        #open-email-subject {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+        #open-email-timestamp {
+            text-align: right;
+        }
+        #open-email-sender {
+            font-weight: bolder;
+        }
+        #open-email-body {
+            border: 0px;
+            padding-left: 0px;
+            padding-top: 10px;
+        }
+        #open-email-recipients {
+            font-size: 12px;
+            color: rgb(170, 170, 170);
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+    }
+}

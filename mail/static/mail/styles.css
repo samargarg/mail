@@ -1,3 +1,41 @@
-textarea {
-    min-height: 400px;
+body textarea {
+  min-height: 400px;
 }
+body #emails-view #emails .email {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border: 0px;
+}
+body #emails-view #emails .email .email-timestamp {
+  text-align: right;
+}
+body #emails-view #emails .email .email-subject {
+  text-align: left;
+}
+body #emails-view #emails .email .email-sender {
+  text-align: left;
+}
+body #open-email-view #open-email-subject {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+body #open-email-view #open-email-timestamp {
+  text-align: right;
+}
+body #open-email-view #open-email-sender {
+  font-weight: bolder;
+}
+body #open-email-view #open-email-body {
+  border: 0px;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+body #open-email-view #open-email-recipients {
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */
